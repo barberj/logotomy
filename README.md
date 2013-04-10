@@ -1,6 +1,10 @@
 # Logotomy
 
-TODO: Write a gem description
+Tired of Rails excess logging. Give it a logotomy effectively silencing unwanted log messages.
+
+Silenced logs include:
++ ActiveRecord sql
++ ActionController template render
 
 ## Installation
 
@@ -15,10 +19,6 @@ And then execute:
 Or install it yourself as:
 
     $ gem install logotomy
-
-## Usage
-
-TODO: Write usage instructions here
 
 ## Contributing
 
